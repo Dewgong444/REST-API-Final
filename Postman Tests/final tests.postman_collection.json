@@ -1,0 +1,2200 @@
+{
+	"info": {
+		"name": "final tests",
+		"_postman_id": "1414146c-cba0-03a4-e25f-299433b8381a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add 2 users",
+			"description": "",
+			"item": [
+				{
+					"name": "confirm user 1 doesn't exist",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 1 doesn't exist then\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 doesn't exist",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 2 doesn't exist then\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "create user 1 profile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"User 1 creation status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted user 1 content is correct on the POST.\", function () {",
+									"    var user_one_id = jsonData.id;",
+									"    pm.globals.set(\"user_one_id\", user_one_id);",
+									"    pm.expect(jsonData.fname).to.eql(\"Chris\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"first\": \"Chris\",\n\"last\": \"Shelton\",\n\"email\": \"cbshelton444@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 exists now",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 exists now\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted user 1 content is correct on the GET.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Chris\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 still doesn't exist",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 2 doesn't exist then\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "create user 2 profile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"User 2 creation status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted user 2 content is correct on the POST.\", function () {",
+									"    var user_two_id = jsonData.id;",
+									"    pm.globals.set(\"user_two_id\", user_two_id);",
+									"    pm.expect(jsonData.fname).to.eql(\"Christopher\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Sheltonius\");",
+									"    pm.expect(jsonData.email).to.eql(\"sheltchr@oregonstate.edu\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"first\": \"Christopher\",\n\"last\": \"Sheltonius\",\n\"email\": \"sheltchr@oregonstate.edu\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 still exists after user 2 is created",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 exists now\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"User 1 content is still correct after another user was created.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Chris\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Add books to users",
+			"description": "",
+			"item": [
+				{
+					"name": "confirm user 1 has no books",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 1 doesn't have any books, since we know user 1 exists.\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 has no books",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 2 doesn't have any books, since we know user 2 exists.\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "create a book for user 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Posting a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted book for user 1 content is correct on the POST.\", function () {",
+									"    var book_one_id = jsonData.id;",
+									"    pm.globals.set(\"book_one_id\", book_one_id);",
+									"    pm.expect(jsonData.title).to.eql(\"1984\");",
+									"    pm.expect(jsonData.author).to.eql(\"Orwell\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1900);",
+									"    pm.expect(jsonData.review).to.eql(\"pretty good\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"1984\",\n\"author\": \"Orwell\",\n\"published\": 1900,\n\"review\": \"pretty good\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get book 1 by id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Getting a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted book for user 1 is correct on the GET.\", function () {",
+									"    pm.expect(jsonData.title).to.eql(\"1984\");",
+									"    pm.expect(jsonData.author).to.eql(\"Orwell\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1900);",
+									"    pm.expect(jsonData.review).to.eql(\"pretty good\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_one_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_one_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 has only 1 book",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 1 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 1 only has 1 book total\"] = jsonData.length == 1;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 still has no books",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 2 still doesn't have any books, since we know user 2 exists.\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "create a book for user 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Posting a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted book for user 2 content is correct on the POST.\", function () {",
+									"    var book_two_id = jsonData.id;",
+									"    pm.globals.set(\"book_two_id\", book_two_id);",
+									"    pm.expect(jsonData.title).to.eql(\"Harry Potter\");",
+									"    pm.expect(jsonData.author).to.eql(\"Rowling\");",
+									"    pm.expect(jsonData.yearPub).to.eql(2001);",
+									"    pm.expect(jsonData.review).to.eql(\"magical\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"Harry Potter\",\n\"author\": \"Rowling\",\n\"published\": 2001,\n\"review\": \"magical\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get book 2 by id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Getting a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, posted book for user 2 is correct on the GET.\", function () {",
+									"    pm.expect(jsonData.title).to.eql(\"Harry Potter\");",
+									"    pm.expect(jsonData.author).to.eql(\"Rowling\");",
+									"    pm.expect(jsonData.yearPub).to.eql(2001);",
+									"    pm.expect(jsonData.review).to.eql(\"magical\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_two_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_two_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 still has only 1 book",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 1 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 1 only has 1 book total\"] = jsonData.length == 1;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 has 1 book now",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 2 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 2 only has 1 book total\"] = jsonData.length == 1;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "create a second book for user 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Posting a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, 2nd book for user 1 content is correct on the POST.\", function () {",
+									"    var book_three_id = jsonData.id;",
+									"    pm.globals.set(\"book_three_id\", book_three_id);",
+									"    pm.expect(jsonData.title).to.eql(\"Ender's Game\");",
+									"    pm.expect(jsonData.author).to.eql(\"Card\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1990);",
+									"    pm.expect(jsonData.review).to.eql(\"IN SPACE\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"Ender's Game\",\n\"author\": \"Card\",\n\"published\": 1990,\n\"review\": \"IN SPACE\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get book 3 by id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Getting a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"New, 2nd book for user 1 is correct on the GET.\", function () {",
+									"    pm.expect(jsonData.title).to.eql(\"Ender's Game\");",
+									"    pm.expect(jsonData.author).to.eql(\"Card\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1990);",
+									"    pm.expect(jsonData.review).to.eql(\"IN SPACE\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 has 2 books now",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 1 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 1 only has 2 books total now\"] = jsonData.length == 2;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 still has only 1 book",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 2 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 2 still only has 1 book total\"] = jsonData.length == 1;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Edit and Delete Books",
+			"description": "",
+			"item": [
+				{
+					"name": "Patch book 3 title",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching a book title status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched book for user 1 information is correct, only title changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"book_three_id\"));",
+									"    pm.expect(jsonData.title).to.eql(\"Not Ender\");",
+									"    pm.expect(jsonData.author).to.eql(\"Card\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1990);",
+									"    pm.expect(jsonData.review).to.eql(\"IN SPACE\");",
+									"});",
+									"",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"Not Ender\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Patch book 3 author",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching a book author status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched book for user 1 information is correct, only author changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"book_three_id\"));",
+									"    pm.expect(jsonData.title).to.eql(\"Not Ender\");",
+									"    pm.expect(jsonData.author).to.eql(\"Tolkein\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1990);",
+									"    pm.expect(jsonData.review).to.eql(\"IN SPACE\");",
+									"});",
+									"",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"author\": \"Tolkein\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Patch book 3 publication year",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching a book year published status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched book for user 1 information is correct, only yearPub changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"book_three_id\"));",
+									"    pm.expect(jsonData.title).to.eql(\"Not Ender\");",
+									"    pm.expect(jsonData.author).to.eql(\"Tolkein\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1960);",
+									"    pm.expect(jsonData.review).to.eql(\"IN SPACE\");",
+									"});",
+									"",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"published\": 1960\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Patch book 3 review",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching a book review status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched book for user 1 information is correct, only review changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"book_three_id\"));",
+									"    pm.expect(jsonData.title).to.eql(\"Not Ender\");",
+									"    pm.expect(jsonData.author).to.eql(\"Tolkein\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1960);",
+									"    pm.expect(jsonData.review).to.eql(\"not good\");",
+									"});",
+									"",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"review\": \"not good\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Cannot patch more than 1 attribute",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Incorrect patching of a book status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									"",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"author\": \"Manning\",\n\"review\": \"not good\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "PUT book edits to book 3",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"PUT edits to a book status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"PUT edits on book 3 for user 1 are correct.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"book_three_id\"));",
+									"    pm.expect(jsonData.title).to.eql(\"Ender's Game\");",
+									"    pm.expect(jsonData.author).to.eql(\"Card\");",
+									"    pm.expect(jsonData.yearPub).to.eql(1990);",
+									"    pm.expect(jsonData.review).to.eql(\"IN SPACE?\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"Ender's Game\",\n\"author\": \"Card\",\n\"published\": 1990,\n\"review\": \"IN SPACE?\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Cannot PUT less than all attributes",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Incorrect PUT to a book status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"Ender's Game\",\n\"published\": 1990,\n\"review\": \"IN SPACE?\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 has 2 books before DELETE",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 1 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 1 only has 2 books total before a DELETE\"] = jsonData.length == 2;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Delete book 3",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code for DELETING a book is 200.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookedit/{{book_three_id}}",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookedit",
+								"{{book_three_id}}"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 has 1 book now",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 1 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 1 only has 1 book after a DELETE\"] = jsonData.length == 1;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 still has 1 book",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200 so we know user 2 has at least 1 book.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"tests[\"User 2 still has 1 book after user 1 used a DELETE on one\"] = jsonData.length == 1;"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"next book\",\n\"author\": \"new auth\",\n\"published\": 1990,\n\"review\": \"it was better\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/bookadd",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"bookadd"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Edit and Delete Users",
+			"description": "",
+			"item": [
+				{
+					"name": "patch user fname",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching user first name status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched user info for user 1 information is correct, only first name changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Me\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"first\": \"Me\"}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "patch user lname",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching user last name status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched user info for user 1 information is correct, only last name changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Me\");",
+									"    pm.expect(jsonData.lname).to.eql(\"AM\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"last\": \"AM\"}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "patch user email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching user email status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"Patched user info for user 1 information is correct, only email changed.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Me\");",
+									"    pm.expect(jsonData.lname).to.eql(\"AM\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton@ucdavis.edu\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"cbshelton@ucdavis.edu\"}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Patching more than 1 attribute doesn't work",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Patching more than 1 attribute has a status code of 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									"",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"first\": \"Chris\",\n\"last\": \"Shelton\"}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Confirm user 1 didn't change after bad patch",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 can be accessed.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"User 1 info didn't change after bad patch.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Me\");",
+									"    pm.expect(jsonData.lname).to.eql(\"AM\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton@ucdavis.edu\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "PUT user edits works",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 data changed.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"PUT user 1 content is correct.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Chris\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"first\": \"Chris\",\n\"last\": \"Shelton\",\n\"email\": \"cbshelton444@gmail.com\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 data changed",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 data is acquired.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"User 1 data is correct from the GET.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Chris\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "PUT less than 3 attributes on user doesn't work",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 1 PUT didn't work.\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"first\": \"Chris\",\n\"last\": \"IS\"\n}"
+						},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 data didn't change after bad PUT",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 data is acquired.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"User 1 data is correct from the GET.\", function () {",
+									"    pm.expect(jsonData.id).to.eql(pm.globals.get(\"user_one_id\"));",
+									"    pm.expect(jsonData.fname).to.eql(\"Chris\");",
+									"    pm.expect(jsonData.lname).to.eql(\"Shelton\");",
+									"    pm.expect(jsonData.email).to.eql(\"cbshelton444@gmail.com\");",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "delete user 1",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 1 DELETE went through.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 1 is deleted",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 1 data can't be found in GET.\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "delete user 2",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 200, user 2 DELETE went through.\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user2 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "confirm user 2 is deleted",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									"pm.test(\"Status code is 400, user 1 data can't be found in GET.\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									""
+								]
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{user1 auth}}"
+							}
+						],
+						"body": {},
+						"url": {
+							"raw": "https://assignment3-496.appspot.com/user",
+							"protocol": "https",
+							"host": [
+								"assignment3-496",
+								"appspot",
+								"com"
+							],
+							"path": [
+								"user"
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

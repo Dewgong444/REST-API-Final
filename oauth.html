@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <style>
+      .oauthHead {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        text-decoration: underline;
+        font-size: 200%;
+      }
+      .intro {
+        text-align: center;
+        font-family: Verdana, sans-serif;
+        color: green;
+        font-weight: bold;
+        font-size: 150%;
+      }
+      .data {
+        text-align: left;
+        text-indent: 20px;
+        color: red;
+        font-family: Verdana, sans-serif;
+        font-size: 120%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="oauthHead"> User's Google Plus Information for the Final Project </h2>
+    <div>
+      <p class="intro"> Here we will return to the user the information we got from their Google Plus account and
+        the token we need to authorize the API (we need this for the POSTMAN tests as our Authorization): </p>
+        <br>
+        <p class="data"> First name: {{first}} </p>
+        <p class="data"> Last name: {{last}} </p>
+        <p class="data"> The email: {{email}} </p>
+        <p class="data"> User token: {{token}} </p>
+        <br>
+    </div>
+  </body>
+</html>

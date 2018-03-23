@@ -1,0 +1,3067 @@
+{
+	"id": "18a03b2a-96fa-461c-b094-24892426ca31",
+	"name": "final tests",
+	"allTests": [],
+	"timestamp": "2017-11-26T04:36:38.624Z",
+	"collection_id": "1414146c-cba0-03a4-e25f-299433b8381a",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "a4d41a2d-9b8a-241b-5537-013df378857f",
+	"data": [],
+	"delay": "200",
+	"count": 1,
+	"collection": {
+		"id": "1414146c-cba0-03a4-e25f-299433b8381a",
+		"name": "final tests",
+		"description": "",
+		"order": [],
+		"folders": [
+			{
+				"name": "Add 2 users",
+				"description": "",
+				"collectionId": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"collection": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"order": [
+					"064970be-cd43-2fcb-43e4-6b0b0ada2742",
+					"25c9dd54-8cd9-f6b8-c732-48a3d72eded3",
+					"b6606ed5-15ce-3cee-c213-0d6570b2f2bc",
+					"341215e8-64b1-9743-6fd8-2c347d543a68",
+					"1c8c6839-8457-f408-bd84-483575ed0c6b",
+					"dec5b318-12ef-46fc-c3ae-f3d3315e5400",
+					"5213ca42-6cb0-cd5e-3c04-0c2ebc894f61"
+				],
+				"owner": "2860827",
+				"folders_order": [],
+				"createdAt": 1511658257616,
+				"updatedAt": 1511658257616,
+				"id": "3b2ab298-cb1c-4e36-bc12-de431ca748cf",
+				"collection_id": "1414146c-cba0-03a4-e25f-299433b8381a"
+			},
+			{
+				"name": "Add books to users",
+				"description": "",
+				"collectionId": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"collection": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"order": [
+					"669766b1-f155-1469-946e-10f9595be81b",
+					"a5e45c4d-0a6b-e12b-403f-abb5d6f3743a",
+					"3a58e00c-0c40-2f53-187d-9d2404162a08",
+					"4c2d039f-111e-8ade-26fc-c49fc030223a",
+					"89fff1c4-3d7b-a540-c731-43428b8f6aaa",
+					"db7050bb-4894-40f8-5e07-75d0b9de49dd",
+					"1d62d3c1-0a64-84a5-dd46-0b8ecb84d048",
+					"6adb9c85-5515-bdec-a25e-0aaabe107f7f",
+					"7f6552c2-32e1-464f-e801-4f8f9bf1776f",
+					"51a029c9-faad-6f61-9d8e-ad11a530b560",
+					"bdc8c16b-6bb4-d102-f06b-3ef088798c41",
+					"55231c8f-9548-8e6c-5c97-7d8d90645740",
+					"881f2928-c6b8-af6a-f9bb-4f876ce27517",
+					"3baef205-43b3-87cd-2efe-8ad55e12eef1"
+				],
+				"owner": "2860827",
+				"folders_order": [],
+				"createdAt": 1511659269233,
+				"updatedAt": 1511659269233,
+				"id": "b64d8ef6-9ff4-b829-76cc-3f66e34dd0d8",
+				"collection_id": "1414146c-cba0-03a4-e25f-299433b8381a"
+			},
+			{
+				"name": "Edit and Delete Books",
+				"description": "",
+				"collectionId": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"collection": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"order": [
+					"48ba8e87-8274-270d-c7c8-f19fc94ba010",
+					"c5f90522-7940-6652-0ddb-4e73258a3873",
+					"e1f04c39-f496-72a3-4612-a22eb980461d",
+					"a23eee82-010f-7a9a-bacc-dee21b42a3da",
+					"501466dc-6a93-f481-27ad-55e7a6496d89",
+					"a36c79d2-9269-47ed-b79b-1d932958849b",
+					"82bf34d8-c35f-c0b0-f88c-b92d84eb1c4f",
+					"1ba56b1e-b58b-fae6-c730-d1fe837759fe",
+					"2ee6e309-37d0-3357-10a4-d20d0ced6956",
+					"39ea77f6-41f7-2c11-2006-f5e1af78348a",
+					"7991d9a3-fd50-93a5-8a0c-3a8ec94ace45"
+				],
+				"owner": "2860827",
+				"folders_order": [],
+				"createdAt": 1511660996310,
+				"updatedAt": 1511660996310,
+				"id": "ef52c9b1-8f45-a830-0ac7-d3061890d5e8",
+				"collection_id": "1414146c-cba0-03a4-e25f-299433b8381a"
+			},
+			{
+				"name": "Edit and Delete Users",
+				"description": "",
+				"collectionId": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"collection": "1414146c-cba0-03a4-e25f-299433b8381a",
+				"order": [
+					"426ae6ab-ab31-0639-71c8-dfe30fb126fe",
+					"c4354bea-a976-9758-7b51-3e18395aef81",
+					"5cd0f882-d3a2-e0c7-1869-7a9f9bda6fbd",
+					"a9499ba9-5311-bd30-b51a-d3bfd5ac071e",
+					"171c6685-b15a-8d67-7008-47980eebdb80",
+					"014ed948-8a50-20de-bac8-c2a240df37a7",
+					"fca13982-09f7-975c-2e82-c7e2ab31f025",
+					"ceac5d70-70a3-751c-98dd-a74296ac9bbf",
+					"44e0d593-53a4-9194-44e8-153e0767f6a2",
+					"d68030f9-3421-5993-cf05-8277154c96e4",
+					"2801fde6-e1c8-8e60-33d5-f28e65f8fd24",
+					"0cf1e91e-3142-dd3a-0204-e5e1d52ee279",
+					"3879130f-ab24-6f7c-5de2-6d4da893ac9f"
+				],
+				"owner": "2860827",
+				"folders_order": [],
+				"createdAt": 1511665758764,
+				"updatedAt": 1511665758764,
+				"id": "9e0ff85c-0881-c374-fbb3-06bdfe897796",
+				"collection_id": "1414146c-cba0-03a4-e25f-299433b8381a"
+			}
+		],
+		"folders_order": [
+			"3b2ab298-cb1c-4e36-bc12-de431ca748cf",
+			"b64d8ef6-9ff4-b829-76cc-3f66e34dd0d8",
+			"ef52c9b1-8f45-a830-0ac7-d3061890d5e8",
+			"9e0ff85c-0881-c374-fbb3-06bdfe897796"
+		],
+		"timestamp": 1511316144989,
+		"synced": false,
+		"remote_id": 0,
+		"owner": "2860827",
+		"sharedWithTeam": false,
+		"subscribed": false,
+		"remoteLink": "",
+		"remoteLinkUpdatedAt": null,
+		"public": false,
+		"createdAt": 1511316144989,
+		"updatedAt": 1511667158716,
+		"write": true,
+		"published": false,
+		"favorite": false,
+		"permissions": {},
+		"syncedPermissions": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "echo_digest_realm",
+			"value": "Users",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "echo_digest_nonce",
+			"value": "NuRCfRVP8LeDVo4PkJxrRm4gNxotIKqy",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "true,",
+			"value": 30,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_gists",
+			"value": 27,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "new_url",
+			"value": "https://api.github.com/gists/4cc563d4cb95dcba7362f6712c0ef2ab",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "content",
+			"value": "Test file.",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "new_id",
+			"value": "783880d8a4cfe1196fc6cdee258e594a",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_delete",
+			"value": 28,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "boat_id",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBEJvYXQYgICAgPj7ggsM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_before",
+			"value": 7,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_boats",
+			"value": 43,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "slip_id",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBFNsaXAYgICAgIDkkQkM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_slips",
+			"value": 31,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "boat_name",
+			"value": "test boat",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "slip_number",
+			"value": 10,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "slip_current",
+			"value": null,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "arrival_boat",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBEJvYXQYgICAgK_IgAsM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "arrival_slip",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBFNsaXAYgICAgIDyyAgM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "new_arrival_boat",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBEJvYXQYgICAgPynkAoM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_delete_boats",
+			"value": 42,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "before_delete_slips",
+			"value": 34,
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "new_boat_id",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBEJvYXQYgICAgOu4jwsM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "new_slip_id",
+			"value": "ahVzfm1vYmlsZS1hc3NpZ25tZW50LTByEQsSBFNsaXAYgICAgN7qiQoM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "user1 auth",
+			"value": "Bearer ya29.Gl0QBQ-0yvCUKU0qkHFFAfjRtWBnybV_bvT-jXq2MxQJr_PBqV5-2CyqBvkjOIqrBhn-4nkJpBDaOohFK93Z6la0-7XfDrBVrwy_ZzsDK1rf4Qif2tyoVE2jweuGCEg",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "user2 auth",
+			"value": "Bearer ya29.GlwQBf24QM3AkfskQeogspm068FHOyj8BclqBOWMRx_z_kangqcPHL5SHV80UsrZ7Vteca5yLsV-lDXPOppBaCSoDIyi32oDRfyp0Nfr0pmAwyJl8mPaSW59MHPqKw",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "user_one_id",
+			"value": "ahFzfmFzc2lnbm1lbnQzLTQ5NnIYCxILdXNlckFjY291bnQYgICAgJnOlAoM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "user_two_id",
+			"value": "ahFzfmFzc2lnbm1lbnQzLTQ5NnIYCxILdXNlckFjY291bnQYgICAwMiqhAoM",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "book_one_id",
+			"value": "ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICA_OLXCAw",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "book_two_id",
+			"value": "ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAgLmECQw",
+			"enabled": true,
+			"type": "text"
+		},
+		{
+			"key": "book_three_id",
+			"value": "ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"enabled": true,
+			"type": "text"
+		}
+	],
+	"results": [
+		{
+			"name": "confirm user 1 doesn't exist",
+			"id": "064970be-cd43-2fcb-43e4-6b0b0ada2742",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 1 doesn't exist then": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 doesn't exist then": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"448"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 1 doesn't exist then": true
+				}
+			],
+			"time": "448",
+			"totalRequestTime": "448",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 doesn't exist",
+			"id": "25c9dd54-8cd9-f6b8-c732-48a3d72eded3",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 2 doesn't exist then": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 doesn't exist then": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"272"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 2 doesn't exist then": true
+				}
+			],
+			"time": "272",
+			"totalRequestTime": "272",
+			"iterationResults": {}
+		},
+		{
+			"name": "create user 1 profile",
+			"id": "b6606ed5-15ce-3cee-c213-0d6570b2f2bc",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"User 1 creation status code is 200": true,
+				"New, posted user 1 content is correct on the POST.": true
+			},
+			"testPassFailCounts": {
+				"User 1 creation status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted user 1 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"623"
+			],
+			"allTests": [
+				{
+					"User 1 creation status code is 200": true,
+					"New, posted user 1 content is correct on the POST.": true
+				}
+			],
+			"time": "623",
+			"totalRequestTime": "623",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 exists now",
+			"id": "341215e8-64b1-9743-6fd8-2c347d543a68",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 exists now": true,
+				"New, posted user 1 content is correct on the GET.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 exists now": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted user 1 content is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"328"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 exists now": true,
+					"New, posted user 1 content is correct on the GET.": true
+				}
+			],
+			"time": "328",
+			"totalRequestTime": "328",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 still doesn't exist",
+			"id": "1c8c6839-8457-f408-bd84-483575ed0c6b",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 2 doesn't exist then": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 doesn't exist then": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"269"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 2 doesn't exist then": true
+				}
+			],
+			"time": "269",
+			"totalRequestTime": "269",
+			"iterationResults": {}
+		},
+		{
+			"name": "create user 2 profile",
+			"id": "dec5b318-12ef-46fc-c3ae-f3d3315e5400",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"User 2 creation status code is 200": true,
+				"New, posted user 2 content is correct on the POST.": true
+			},
+			"testPassFailCounts": {
+				"User 2 creation status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted user 2 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"690"
+			],
+			"allTests": [
+				{
+					"User 2 creation status code is 200": true,
+					"New, posted user 2 content is correct on the POST.": true
+				}
+			],
+			"time": "690",
+			"totalRequestTime": "690",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 still exists after user 2 is created",
+			"id": "5213ca42-6cb0-cd5e-3c04-0c2ebc894f61",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 exists now": true,
+				"User 1 content is still correct after another user was created.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 exists now": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 content is still correct after another user was created.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"262"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 exists now": true,
+					"User 1 content is still correct after another user was created.": true
+				}
+			],
+			"time": "262",
+			"totalRequestTime": "262",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 has no books",
+			"id": "669766b1-f155-1469-946e-10f9595be81b",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 1 doesn't have any books, since we know user 1 exists.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 doesn't have any books, since we know user 1 exists.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"344"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 1 doesn't have any books, since we know user 1 exists.": true
+				}
+			],
+			"time": "344",
+			"totalRequestTime": "344",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 has no books",
+			"id": "a5e45c4d-0a6b-e12b-403f-abb5d6f3743a",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 2 doesn't have any books, since we know user 2 exists.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 doesn't have any books, since we know user 2 exists.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"400"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 2 doesn't have any books, since we know user 2 exists.": true
+				}
+			],
+			"time": "400",
+			"totalRequestTime": "400",
+			"iterationResults": {}
+		},
+		{
+			"name": "create a book for user 1",
+			"id": "3a58e00c-0c40-2f53-187d-9d2404162a08",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Posting a book status code is 200": true,
+				"New, posted book for user 1 content is correct on the POST.": true
+			},
+			"testPassFailCounts": {
+				"Posting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 1 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"382"
+			],
+			"allTests": [
+				{
+					"Posting a book status code is 200": true,
+					"New, posted book for user 1 content is correct on the POST.": true
+				}
+			],
+			"time": "382",
+			"totalRequestTime": "382",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get book 1 by id",
+			"id": "4c2d039f-111e-8ade-26fc-c49fc030223a",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICA_OLXCAw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Getting a book status code is 200": true,
+				"New, posted book for user 1 is correct on the GET.": true
+			},
+			"testPassFailCounts": {
+				"Getting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 1 is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"259"
+			],
+			"allTests": [
+				{
+					"Getting a book status code is 200": true,
+					"New, posted book for user 1 is correct on the GET.": true
+				}
+			],
+			"time": "259",
+			"totalRequestTime": "259",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 has only 1 book",
+			"id": "89fff1c4-3d7b-a540-c731-43428b8f6aaa",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 1 has at least 1 book.": true,
+				"User 1 only has 1 book total": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"271"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 1 has at least 1 book.": true,
+					"User 1 only has 1 book total": true
+				}
+			],
+			"time": "271",
+			"totalRequestTime": "271",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 still has no books",
+			"id": "db7050bb-4894-40f8-5e07-75d0b9de49dd",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 2 still doesn't have any books, since we know user 2 exists.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 still doesn't have any books, since we know user 2 exists.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"477"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 2 still doesn't have any books, since we know user 2 exists.": true
+				}
+			],
+			"time": "477",
+			"totalRequestTime": "477",
+			"iterationResults": {}
+		},
+		{
+			"name": "create a book for user 2",
+			"id": "1d62d3c1-0a64-84a5-dd46-0b8ecb84d048",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Posting a book status code is 200": true,
+				"New, posted book for user 2 content is correct on the POST.": true
+			},
+			"testPassFailCounts": {
+				"Posting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 2 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"429"
+			],
+			"allTests": [
+				{
+					"Posting a book status code is 200": true,
+					"New, posted book for user 2 content is correct on the POST.": true
+				}
+			],
+			"time": "429",
+			"totalRequestTime": "429",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get book 2 by id",
+			"id": "6adb9c85-5515-bdec-a25e-0aaabe107f7f",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAgLmECQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Getting a book status code is 200": true,
+				"New, posted book for user 2 is correct on the GET.": true
+			},
+			"testPassFailCounts": {
+				"Getting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 2 is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"251"
+			],
+			"allTests": [
+				{
+					"Getting a book status code is 200": true,
+					"New, posted book for user 2 is correct on the GET.": true
+				}
+			],
+			"time": "251",
+			"totalRequestTime": "251",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 still has only 1 book",
+			"id": "7f6552c2-32e1-464f-e801-4f8f9bf1776f",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 1 has at least 1 book.": true,
+				"User 1 only has 1 book total": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"251"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 1 has at least 1 book.": true,
+					"User 1 only has 1 book total": true
+				}
+			],
+			"time": "251",
+			"totalRequestTime": "251",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 has 1 book now",
+			"id": "51a029c9-faad-6f61-9d8e-ad11a530b560",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 2 has at least 1 book.": true,
+				"User 2 only has 1 book total": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 2 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 2 only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"299"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 2 has at least 1 book.": true,
+					"User 2 only has 1 book total": true
+				}
+			],
+			"time": "299",
+			"totalRequestTime": "299",
+			"iterationResults": {}
+		},
+		{
+			"name": "create a second book for user 1",
+			"id": "bdc8c16b-6bb4-d102-f06b-3ef088798c41",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Posting a book status code is 200": true,
+				"New, 2nd book for user 1 content is correct on the POST.": true
+			},
+			"testPassFailCounts": {
+				"Posting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, 2nd book for user 1 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"408"
+			],
+			"allTests": [
+				{
+					"Posting a book status code is 200": true,
+					"New, 2nd book for user 1 content is correct on the POST.": true
+				}
+			],
+			"time": "408",
+			"totalRequestTime": "408",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get book 3 by id",
+			"id": "55231c8f-9548-8e6c-5c97-7d8d90645740",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Getting a book status code is 200": true,
+				"New, 2nd book for user 1 is correct on the GET.": true
+			},
+			"testPassFailCounts": {
+				"Getting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, 2nd book for user 1 is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"340"
+			],
+			"allTests": [
+				{
+					"Getting a book status code is 200": true,
+					"New, 2nd book for user 1 is correct on the GET.": true
+				}
+			],
+			"time": "340",
+			"totalRequestTime": "340",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 has 2 books now",
+			"id": "881f2928-c6b8-af6a-f9bb-4f876ce27517",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 1 has at least 1 book.": true,
+				"User 1 only has 2 books total now": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 2 books total now": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"263"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 1 has at least 1 book.": true,
+					"User 1 only has 2 books total now": true
+				}
+			],
+			"time": "263",
+			"totalRequestTime": "263",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 still has only 1 book",
+			"id": "3baef205-43b3-87cd-2efe-8ad55e12eef1",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 2 has at least 1 book.": true,
+				"User 2 still only has 1 book total": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 2 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 2 still only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"334"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 2 has at least 1 book.": true,
+					"User 2 still only has 1 book total": true
+				}
+			],
+			"time": "334",
+			"totalRequestTime": "334",
+			"iterationResults": {}
+		},
+		{
+			"name": "Patch book 3 title",
+			"id": "48ba8e87-8274-270d-c7c8-f19fc94ba010",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching a book title status code is 200": true,
+				"Patched book for user 1 information is correct, only title changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching a book title status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only title changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"390"
+			],
+			"allTests": [
+				{
+					"Patching a book title status code is 200": true,
+					"Patched book for user 1 information is correct, only title changed.": true
+				}
+			],
+			"time": "390",
+			"totalRequestTime": "390",
+			"iterationResults": {}
+		},
+		{
+			"name": "Patch book 3 author",
+			"id": "c5f90522-7940-6652-0ddb-4e73258a3873",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching a book author status code is 200": true,
+				"Patched book for user 1 information is correct, only author changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching a book author status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only author changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"365"
+			],
+			"allTests": [
+				{
+					"Patching a book author status code is 200": true,
+					"Patched book for user 1 information is correct, only author changed.": true
+				}
+			],
+			"time": "365",
+			"totalRequestTime": "365",
+			"iterationResults": {}
+		},
+		{
+			"name": "Patch book 3 publication year",
+			"id": "e1f04c39-f496-72a3-4612-a22eb980461d",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching a book year published status code is 200": true,
+				"Patched book for user 1 information is correct, only yearPub changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching a book year published status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only yearPub changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"485"
+			],
+			"allTests": [
+				{
+					"Patching a book year published status code is 200": true,
+					"Patched book for user 1 information is correct, only yearPub changed.": true
+				}
+			],
+			"time": "485",
+			"totalRequestTime": "485",
+			"iterationResults": {}
+		},
+		{
+			"name": "Patch book 3 review",
+			"id": "a23eee82-010f-7a9a-bacc-dee21b42a3da",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching a book review status code is 200": true,
+				"Patched book for user 1 information is correct, only review changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching a book review status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only review changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"351"
+			],
+			"allTests": [
+				{
+					"Patching a book review status code is 200": true,
+					"Patched book for user 1 information is correct, only review changed.": true
+				}
+			],
+			"time": "351",
+			"totalRequestTime": "351",
+			"iterationResults": {}
+		},
+		{
+			"name": "Cannot patch more than 1 attribute",
+			"id": "501466dc-6a93-f481-27ad-55e7a6496d89",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Incorrect patching of a book status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Incorrect patching of a book status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"239"
+			],
+			"allTests": [
+				{
+					"Incorrect patching of a book status code is 400": true
+				}
+			],
+			"time": "239",
+			"totalRequestTime": "239",
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT book edits to book 3",
+			"id": "a36c79d2-9269-47ed-b79b-1d932958849b",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"PUT edits to a book status code is 200": true,
+				"PUT edits on book 3 for user 1 are correct.": true
+			},
+			"testPassFailCounts": {
+				"PUT edits to a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PUT edits on book 3 for user 1 are correct.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"330"
+			],
+			"allTests": [
+				{
+					"PUT edits to a book status code is 200": true,
+					"PUT edits on book 3 for user 1 are correct.": true
+				}
+			],
+			"time": "330",
+			"totalRequestTime": "330",
+			"iterationResults": {}
+		},
+		{
+			"name": "Cannot PUT less than all attributes",
+			"id": "82bf34d8-c35f-c0b0-f88c-b92d84eb1c4f",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Incorrect PUT to a book status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Incorrect PUT to a book status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"337"
+			],
+			"allTests": [
+				{
+					"Incorrect PUT to a book status code is 400": true
+				}
+			],
+			"time": "337",
+			"totalRequestTime": "337",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 has 2 books before DELETE",
+			"id": "1ba56b1e-b58b-fae6-c730-d1fe837759fe",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 1 has at least 1 book.": true,
+				"User 1 only has 2 books total before a DELETE": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 2 books total before a DELETE": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"459"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 1 has at least 1 book.": true,
+					"User 1 only has 2 books total before a DELETE": true
+				}
+			],
+			"time": "459",
+			"totalRequestTime": "459",
+			"iterationResults": {}
+		},
+		{
+			"name": "Delete book 3",
+			"id": "2ee6e309-37d0-3357-10a4-d20d0ced6956",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code for DELETING a book is 200.": true
+			},
+			"testPassFailCounts": {
+				"Status code for DELETING a book is 200.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"367"
+			],
+			"allTests": [
+				{
+					"Status code for DELETING a book is 200.": true
+				}
+			],
+			"time": "367",
+			"totalRequestTime": "367",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 has 1 book now",
+			"id": "39ea77f6-41f7-2c11-2006-f5e1af78348a",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 1 has at least 1 book.": true,
+				"User 1 only has 1 book after a DELETE": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 1 book after a DELETE": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"416"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 1 has at least 1 book.": true,
+					"User 1 only has 1 book after a DELETE": true
+				}
+			],
+			"time": "416",
+			"totalRequestTime": "416",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 still has 1 book",
+			"id": "7991d9a3-fd50-93a5-8a0c-3a8ec94ace45",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200 so we know user 2 has at least 1 book.": true,
+				"User 2 still has 1 book after user 1 used a DELETE on one": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 2 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 2 still has 1 book after user 1 used a DELETE on one": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"349"
+			],
+			"allTests": [
+				{
+					"Status code is 200 so we know user 2 has at least 1 book.": true,
+					"User 2 still has 1 book after user 1 used a DELETE on one": true
+				}
+			],
+			"time": "349",
+			"totalRequestTime": "349",
+			"iterationResults": {}
+		},
+		{
+			"name": "patch user fname",
+			"id": "426ae6ab-ab31-0639-71c8-dfe30fb126fe",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching user first name status code is 200": true,
+				"Patched user info for user 1 information is correct, only first name changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching user first name status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched user info for user 1 information is correct, only first name changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"500"
+			],
+			"allTests": [
+				{
+					"Patching user first name status code is 200": true,
+					"Patched user info for user 1 information is correct, only first name changed.": true
+				}
+			],
+			"time": "500",
+			"totalRequestTime": "500",
+			"iterationResults": {}
+		},
+		{
+			"name": "patch user lname",
+			"id": "c4354bea-a976-9758-7b51-3e18395aef81",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching user last name status code is 200": true,
+				"Patched user info for user 1 information is correct, only last name changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching user last name status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched user info for user 1 information is correct, only last name changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"308"
+			],
+			"allTests": [
+				{
+					"Patching user last name status code is 200": true,
+					"Patched user info for user 1 information is correct, only last name changed.": true
+				}
+			],
+			"time": "308",
+			"totalRequestTime": "308",
+			"iterationResults": {}
+		},
+		{
+			"name": "patch user email",
+			"id": "5cd0f882-d3a2-e0c7-1869-7a9f9bda6fbd",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Patching user email status code is 200": true,
+				"Patched user info for user 1 information is correct, only email changed.": true
+			},
+			"testPassFailCounts": {
+				"Patching user email status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched user info for user 1 information is correct, only email changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"279"
+			],
+			"allTests": [
+				{
+					"Patching user email status code is 200": true,
+					"Patched user info for user 1 information is correct, only email changed.": true
+				}
+			],
+			"time": "279",
+			"totalRequestTime": "279",
+			"iterationResults": {}
+		},
+		{
+			"name": "Patching more than 1 attribute doesn't work",
+			"id": "a9499ba9-5311-bd30-b51a-d3bfd5ac071e",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Patching more than 1 attribute has a status code of 400": true
+			},
+			"testPassFailCounts": {
+				"Patching more than 1 attribute has a status code of 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"305"
+			],
+			"allTests": [
+				{
+					"Patching more than 1 attribute has a status code of 400": true
+				}
+			],
+			"time": "305",
+			"totalRequestTime": "305",
+			"iterationResults": {}
+		},
+		{
+			"name": "Confirm user 1 didn't change after bad patch",
+			"id": "171c6685-b15a-8d67-7008-47980eebdb80",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 can be accessed.": true,
+				"User 1 info didn't change after bad patch.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 can be accessed.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 info didn't change after bad patch.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"244"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 can be accessed.": true,
+					"User 1 info didn't change after bad patch.": true
+				}
+			],
+			"time": "244",
+			"totalRequestTime": "244",
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT user edits works",
+			"id": "014ed948-8a50-20de-bac8-c2a240df37a7",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 data changed.": true,
+				"PUT user 1 content is correct.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 data changed.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PUT user 1 content is correct.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"257"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 data changed.": true,
+					"PUT user 1 content is correct.": true
+				}
+			],
+			"time": "257",
+			"totalRequestTime": "257",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 data changed",
+			"id": "fca13982-09f7-975c-2e82-c7e2ab31f025",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 data is acquired.": true,
+				"User 1 data is correct from the GET.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 data is acquired.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 data is correct from the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"336"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 data is acquired.": true,
+					"User 1 data is correct from the GET.": true
+				}
+			],
+			"time": "336",
+			"totalRequestTime": "336",
+			"iterationResults": {}
+		},
+		{
+			"name": "PUT less than 3 attributes on user doesn't work",
+			"id": "ceac5d70-70a3-751c-98dd-a74296ac9bbf",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 1 PUT didn't work.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 PUT didn't work.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"272"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 1 PUT didn't work.": true
+				}
+			],
+			"time": "272",
+			"totalRequestTime": "272",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 data didn't change after bad PUT",
+			"id": "44e0d593-53a4-9194-44e8-153e0767f6a2",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 data is acquired.": true,
+				"User 1 data is correct from the GET.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 data is acquired.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 data is correct from the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"223"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 data is acquired.": true,
+					"User 1 data is correct from the GET.": true
+				}
+			],
+			"time": "223",
+			"totalRequestTime": "223",
+			"iterationResults": {}
+		},
+		{
+			"name": "delete user 1",
+			"id": "d68030f9-3421-5993-cf05-8277154c96e4",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 1 DELETE went through.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 DELETE went through.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"382"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 1 DELETE went through.": true
+				}
+			],
+			"time": "382",
+			"totalRequestTime": "382",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 1 is deleted",
+			"id": "2801fde6-e1c8-8e60-33d5-f28e65f8fd24",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 1 data can't be found in GET.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 data can't be found in GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"240"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 1 data can't be found in GET.": true
+				}
+			],
+			"time": "240",
+			"totalRequestTime": "240",
+			"iterationResults": {}
+		},
+		{
+			"name": "delete user 2",
+			"id": "0cf1e91e-3142-dd3a-0204-e5e1d52ee279",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200, user 2 DELETE went through.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 2 DELETE went through.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"423"
+			],
+			"allTests": [
+				{
+					"Status code is 200, user 2 DELETE went through.": true
+				}
+			],
+			"time": "423",
+			"totalRequestTime": "423",
+			"iterationResults": {}
+		},
+		{
+			"name": "confirm user 2 is deleted",
+			"id": "3879130f-ab24-6f7c-5de2-6d4da893ac9f",
+			"url": "https://assignment3-496.appspot.com/user",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"tests": {
+				"Status code is 400, user 1 data can't be found in GET.": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 data can't be found in GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"234"
+			],
+			"allTests": [
+				{
+					"Status code is 400, user 1 data can't be found in GET.": true
+				}
+			],
+			"time": "234",
+			"totalRequestTime": "234",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 75,
+	"totalFail": 0,
+	"totalTime": 15691,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "confirm user 1 doesn't exist",
+			"id": "064970be-cd43-2fcb-43e4-6b0b0ada2742",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 doesn't exist then": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 doesn't exist",
+			"id": "25c9dd54-8cd9-f6b8-c732-48a3d72eded3",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 doesn't exist then": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "create user 1 profile",
+			"id": "b6606ed5-15ce-3cee-c213-0d6570b2f2bc",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"User 1 creation status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted user 1 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 exists now",
+			"id": "341215e8-64b1-9743-6fd8-2c347d543a68",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 exists now": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted user 1 content is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 still doesn't exist",
+			"id": "1c8c6839-8457-f408-bd84-483575ed0c6b",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 doesn't exist then": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "create user 2 profile",
+			"id": "dec5b318-12ef-46fc-c3ae-f3d3315e5400",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"User 2 creation status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted user 2 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 still exists after user 2 is created",
+			"id": "5213ca42-6cb0-cd5e-3c04-0c2ebc894f61",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 exists now": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 content is still correct after another user was created.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 has no books",
+			"id": "669766b1-f155-1469-946e-10f9595be81b",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 doesn't have any books, since we know user 1 exists.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 has no books",
+			"id": "a5e45c4d-0a6b-e12b-403f-abb5d6f3743a",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 doesn't have any books, since we know user 2 exists.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "create a book for user 1",
+			"id": "3a58e00c-0c40-2f53-187d-9d2404162a08",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Posting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 1 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get book 1 by id",
+			"id": "4c2d039f-111e-8ade-26fc-c49fc030223a",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICA_OLXCAw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Getting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 1 is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 has only 1 book",
+			"id": "89fff1c4-3d7b-a540-c731-43428b8f6aaa",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 still has no books",
+			"id": "db7050bb-4894-40f8-5e07-75d0b9de49dd",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 2 still doesn't have any books, since we know user 2 exists.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "create a book for user 2",
+			"id": "1d62d3c1-0a64-84a5-dd46-0b8ecb84d048",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Posting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 2 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get book 2 by id",
+			"id": "6adb9c85-5515-bdec-a25e-0aaabe107f7f",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAgLmECQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Getting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, posted book for user 2 is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 still has only 1 book",
+			"id": "7f6552c2-32e1-464f-e801-4f8f9bf1776f",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 has 1 book now",
+			"id": "51a029c9-faad-6f61-9d8e-ad11a530b560",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 2 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 2 only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "create a second book for user 1",
+			"id": "bdc8c16b-6bb4-d102-f06b-3ef088798c41",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Posting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, 2nd book for user 1 content is correct on the POST.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Get book 3 by id",
+			"id": "55231c8f-9548-8e6c-5c97-7d8d90645740",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Getting a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New, 2nd book for user 1 is correct on the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 has 2 books now",
+			"id": "881f2928-c6b8-af6a-f9bb-4f876ce27517",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 2 books total now": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 still has only 1 book",
+			"id": "3baef205-43b3-87cd-2efe-8ad55e12eef1",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 2 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 2 still only has 1 book total": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Patch book 3 title",
+			"id": "48ba8e87-8274-270d-c7c8-f19fc94ba010",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching a book title status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only title changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Patch book 3 author",
+			"id": "c5f90522-7940-6652-0ddb-4e73258a3873",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching a book author status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only author changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Patch book 3 publication year",
+			"id": "e1f04c39-f496-72a3-4612-a22eb980461d",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching a book year published status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only yearPub changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Patch book 3 review",
+			"id": "a23eee82-010f-7a9a-bacc-dee21b42a3da",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching a book review status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched book for user 1 information is correct, only review changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Cannot patch more than 1 attribute",
+			"id": "501466dc-6a93-f481-27ad-55e7a6496d89",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Incorrect patching of a book status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT book edits to book 3",
+			"id": "a36c79d2-9269-47ed-b79b-1d932958849b",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"PUT edits to a book status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PUT edits on book 3 for user 1 are correct.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Cannot PUT less than all attributes",
+			"id": "82bf34d8-c35f-c0b0-f88c-b92d84eb1c4f",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Incorrect PUT to a book status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 has 2 books before DELETE",
+			"id": "1ba56b1e-b58b-fae6-c730-d1fe837759fe",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 2 books total before a DELETE": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Delete book 3",
+			"id": "2ee6e309-37d0-3357-10a4-d20d0ced6956",
+			"url": "https://assignment3-496.appspot.com/bookedit/ahFzfmFzc2lnbm1lbnQzLTQ5NnIRCxIEQm9vaxiAgICAq--WCQw",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code for DELETING a book is 200.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 has 1 book now",
+			"id": "39ea77f6-41f7-2c11-2006-f5e1af78348a",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 1 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 only has 1 book after a DELETE": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 still has 1 book",
+			"id": "7991d9a3-fd50-93a5-8a0c-3a8ec94ace45",
+			"url": "https://assignment3-496.appspot.com/bookadd",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200 so we know user 2 has at least 1 book.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 2 still has 1 book after user 1 used a DELETE on one": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "patch user fname",
+			"id": "426ae6ab-ab31-0639-71c8-dfe30fb126fe",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching user first name status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched user info for user 1 information is correct, only first name changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "patch user lname",
+			"id": "c4354bea-a976-9758-7b51-3e18395aef81",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching user last name status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched user info for user 1 information is correct, only last name changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "patch user email",
+			"id": "5cd0f882-d3a2-e0c7-1869-7a9f9bda6fbd",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching user email status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Patched user info for user 1 information is correct, only email changed.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Patching more than 1 attribute doesn't work",
+			"id": "a9499ba9-5311-bd30-b51a-d3bfd5ac071e",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Patching more than 1 attribute has a status code of 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Confirm user 1 didn't change after bad patch",
+			"id": "171c6685-b15a-8d67-7008-47980eebdb80",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 can be accessed.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 info didn't change after bad patch.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT user edits works",
+			"id": "014ed948-8a50-20de-bac8-c2a240df37a7",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 data changed.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"PUT user 1 content is correct.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 data changed",
+			"id": "fca13982-09f7-975c-2e82-c7e2ab31f025",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 data is acquired.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 data is correct from the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "PUT less than 3 attributes on user doesn't work",
+			"id": "ceac5d70-70a3-751c-98dd-a74296ac9bbf",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 PUT didn't work.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 data didn't change after bad PUT",
+			"id": "44e0d593-53a4-9194-44e8-153e0767f6a2",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 data is acquired.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User 1 data is correct from the GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "delete user 1",
+			"id": "d68030f9-3421-5993-cf05-8277154c96e4",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 1 DELETE went through.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 1 is deleted",
+			"id": "2801fde6-e1c8-8e60-33d5-f28e65f8fd24",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 data can't be found in GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "delete user 2",
+			"id": "0cf1e91e-3142-dd3a-0204-e5e1d52ee279",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200, user 2 DELETE went through.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "confirm user 2 is deleted",
+			"id": "3879130f-ab24-6f7c-5de2-6d4da893ac9f",
+			"url": "https://assignment3-496.appspot.com/user",
+			"time": "2017-11-26T04:36:38.624Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 400, user 1 data can't be found in GET.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
